@@ -1,0 +1,268 @@
+@media screen and (max-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Ubuntu' ,sans-serif;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0.8vh;
+    align-items: center;
+    background-color: black;
+    
+}
+nav ul li{
+    color: white;
+    padding: 0 9px;
+    font-size: 13px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.brand img{
+    width: 30px;
+    padding: 0 8px;
+}
+.container{
+    min-height: 80vhvh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 20px;
+    background: url('bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.container .songList h1{
+    font-size: 20px;
+    padding: 0 25px ;
+} 
+
+.songItemContainer{
+    margin-top: 6vh;
+}
+.songItem{
+display: flex;
+height: 6.75vh;
+background-color: white;
+color: black;
+background-color: white;
+margin: 8px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+font-size: 14px;
+}
+.container .songList .songName{
+    display: none;
+} 
+.songItem img{
+    width: 25px;
+    border-radius: 30px;
+    margin: 0 23px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 1vw;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+
+}
+.songInfo #masterSongName{
+display: none;
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+
+.bottom{
+    
+    position: sticky;
+    height: 17vh;
+    padding: 5px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons .fa{
+    cursor: pointer;
+    margin-right:10px ;
+}
+#myProgressBar{
+    width: 80vw;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+}
+
+
+@media screen and (max-width:850px) and (min-width:501px) {
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Ubuntu' ,sans-serif;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 1vh;
+    align-items: center;
+    background-color: black;
+    
+}
+nav ul li{
+    color: white;
+    padding: 0 9px;
+    font-size: 14px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.brand img{
+    width: 30px;
+    padding: 0 8px;
+}
+.container{
+    min-height: 80vhvh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 20px;
+    background: url('bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.container .songList h1{
+    font-size: 25px;
+    padding: 0 25px ;
+} 
+
+.songItemContainer{
+    margin-top: 6vh;
+}
+.songItem{
+display: flex;
+height: 6.75vh;
+background-color: white;
+color: black;
+background-color: white;
+margin: 8px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+font-size: 14px;
+}
+.container .songList .songName{
+    display: none;
+} 
+.songItem img{
+    width: 25px;
+    border-radius: 30px;
+    margin: 0 23px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 1vw;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+
+}
+.songInfo #masterSongName{
+display: flex;
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+
+.bottom{
+    
+    position: sticky;
+    height: 17vh;
+    padding: 5px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons .fa{
+    cursor: pointer;
+    margin-right:10px ;
+}
+#myProgressBar{
+    width: 80vw;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+}

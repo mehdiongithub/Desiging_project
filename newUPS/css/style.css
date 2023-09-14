@@ -1,0 +1,657 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #navbar1{
+        background-color: gold;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5vh;
+        
+    }
+    #navbar1 .navContent{
+        margin-left: 8vw;
+    }
+    #navbar1 p{
+        font-size: 18px;
+        color: rgb(50, 1,0);
+        font-weight: 100;
+        
+    }
+    #navbar1 .navContent2{
+        margin-right: 8vw;
+    }
+    #navbar1 a{
+        text-decoration: none;
+        color: rgb(50, 1,0);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    #navbar1 span{
+        color: rgb(50, 1,0);
+        font-size: 18px;
+    }
+    #navbar2{
+        background-color: rgb(0, 156, 189);
+        display: flex;
+        padding: 1.5vh;
+        justify-content: space-between;
+        flex-direction: column;
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        
+    }
+    #navbar2 .menuUp{
+    display: flex;
+    }
+    
+    #navbar2 .navbarLogo{
+        margin-left: 8vw;
+        margin-right: 1.5vw;
+    }
+    #navbar2 img{
+        width: 100%;
+        padding-top: 8px;
+    }
+    #navbar2 .menuList{
+        margin-right: 2vw;
+    }
+    #navbar2 ul{
+        display: flex;
+        padding-top: 15px;
+    }
+    #navbar2 ul li{
+        list-style: none;
+        margin-left: 1.5vw;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #navbar2 ul li a{
+    text-decoration: none;
+    color: white;
+    }
+    #navbar2 .firstList{
+        text-decoration: underline;
+        color: gold;
+    }
+    #navbar2 .anchrBtn{
+        padding-top: 0;
+        width: 30%;
+        margin-right: 3vw;
+        position: relative;
+    }
+    #navbar2 .anchrBtn a{
+        text-decoration: none;
+        color: rgb(50, 1,0);
+        font-size: 16px;
+        display: inline-block;
+        width: 9vw;
+        font-weight: bold;
+        border-radius: 23px;
+        padding: 7px 12px;
+        background-color: gold;
+        margin-left: 1vw;
+    }
+    #navbar2 .anchrBtn #navBtn2{
+        text-decoration: none;
+        color: rgb(50, 1,0);
+        font-size: 16px;
+        display: inline-block;
+        width: 8vw;
+        font-weight: bold;
+        border-radius: 23px;
+        padding: 7px 12px;
+        background-color: gold;
+        margin-left: 1vw;
+        position: absolute;
+        top: 0;
+    }
+    #navbar2 .menuDisplay{
+        display: none;
+    }
+    #navbar2 .menuDisplay div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+      }
+      #navbar2 .slideDown{
+        display: none;
+      }
+    
+    .firstSection{
+        background: url('../img/store.jpeg') no-repeat center ;
+        background-size: cover;
+        height: 82vh;
+    }
+    .firstSection .text{
+        margin-left: 8vw;
+        padding-top: 15vh;
+    }
+    .firstSection .text h1{
+        font-size: 55px;
+        line-height: 55px;
+        color: white;
+        font-weight: 300 !important;
+        margin: 0.67em 0;
+    }
+    .firstSection .text h1 span{
+        color: gold;
+        font-weight: 700 !important;
+    }
+    
+    .firstSection .text p{
+        color: white;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: normal;
+        margin-bottom: 2.5rem;
+    }
+    .firstSection .text a{
+        text-decoration: none;
+        padding: 12px 26px;
+        font-size: 20px;
+        background-color: gold;
+        border-radius: 23px;
+        font-weight: bold;
+        color: rgb(50, 1,0);
+    }
+    .secondSection{
+        width: auto;
+    }
+    .secondSection .sectionDetail{
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        display: flex;
+    }
+    
+    .secondSection .sectionDetail .imgSection{
+       padding-left: 8vw;
+       padding-top: 5vh;
+       padding-right: 10vw;
+    }
+    .secondSection .sectionDetail .imgSection img{
+        width: auto;
+        height: auto;
+        }
+    
+    .secondSection .sectionDetail{
+        padding-right: 15vw;
+    }
+    
+        .secondSection .sectionDetail h2{
+            font-size: 50px;
+            padding-top: 20vh;
+            line-height: 50px;
+            font-weight: lighter;
+            color: rgb(50, 1,0);
+            margin: 0.5rem;
+        }
+    
+        .secondSection .sectionDetail h2 span{
+            font-weight: bold;
+        }
+    
+        .secondSection .sectionDetail p{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: normal;
+            margin-bottom: 1rem;
+            color: rgb(50, 1,0);
+    
+        }
+        
+        .secondSection .sectionDetail p strong{
+            font-size: 22px;
+            line-height: 30px;
+            color: rgb(50, 1,0);
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: rgb(50, 1,0);
+    
+        }
+        
+        .thirdSection{
+            background-color: gold;
+            padding-bottom: 25vh;
+        }
+        .thirdSection .headingSection{
+            padding-top: 10vh;
+            text-align: center;
+        
+        }
+    
+        .thirdSection .headingSection h2{
+            font-size: 50px;
+            color: rgb(50, 1,0);
+            line-height: 50px;
+            font-weight: lighter;
+        }
+    
+        .thirdSection .headingSection h2 span{
+            font-weight: bold;
+        }
+        .thirdSection .imageScrolled{
+            display: flex;
+            text-align: center;
+            margin-top: 20vh;
+        }
+    
+        .thirdSection .imageScrolled .scrolledImg{
+            margin: 0 5vw 0 4vw;
+        }
+    
+        .thirdSection .imageScrolled .scrolledImg img{
+            width: 100%;
+        }
+        .thirdSection .scrolledText h4{
+            font-size: 26px;
+            line-height: 35px;
+            margin-top: 4vh;
+            font-weight: 500;
+            color: rgb(50, 1,0);
+        }
+        .thirdSection .scrolledText p{
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 2vh;
+            font-weight: normal;
+            color: rgb(50, 1,0);
+        }
+        .forthSection{
+            display: flex;
+        }
+        .forthSection .leftSection{
+            background: url('../img/gift-store.jpeg') no-repeat center ;
+            background-size: cover;
+            width: 650px;
+            padding: 25vh 5vw 25vh 8vw;
+    
+        }
+        .leftSection h2{
+            font-size: 50px;
+            line-height: 50px;
+            color: white;
+    
+        }
+    
+        .leftSection p{
+            font-size: 18px;
+            margin-top: 2vh;
+            line-height: 26px;
+            color: white;
+            margin-bottom: 5vh;
+    
+        }
+        .leftSection button{
+            text-decoration: none;
+            background-color: gold;
+            border-radius: 23px;
+            padding: 12px 26px;
+            color: rgb(50, 1,0);
+            font-size: 20px;
+        }
+    
+    
+        .forthSection .rightSection{
+            background: url('../img/peakpx.jpg') no-repeat center ;
+            background-size: cover;
+            padding: 25vh 8vw 25vh 5vw;
+    
+        }
+    
+        .rightSection h2{
+            font-size: 50px;
+            line-height: 50px;
+            color: white;
+    
+        }
+    
+        .rightSection p{
+            font-size: 18px;
+            margin-top: 2vh;
+            line-height: 26px;
+            color: white;
+            margin-bottom: 5vh;
+    
+        }
+        .rightSection button{
+            text-decoration: none;
+            background-color: transparent;
+            border-radius: 23px;
+            padding: 12px 26px;
+            color: white;
+            font-size: 20px;
+        }
+        .fifthSection {
+            background-color: #f3f3f3;
+            padding: 15vh 8vw 10vh;
+    
+        }
+        .fifthSection .headingSection h2{
+            text-align: center;
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: lighter;
+            color: rgb(50, 1,0);
+        }
+        
+        .fifthSection .headingSection h2 span{
+            font-weight: bold;
+        }
+        .fifthSection .effectiveDev{
+            margin-top: 15vh;
+            margin-left: 4vw;
+        }
+        .fifthSection .divBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10vh;
+        }
+        .fifthSection .divBox div{
+            background-color: white;
+            margin-right: 2vw;
+            width: 90%;
+            padding: 5vh 5vw;
+            border-radius: 25px;
+            text-align: center;
+            
+        }
+    
+        .fifthSection .divBox div:hover{
+            background-color: gold;
+        }
+        
+        .fifthSection .divBox div h4{
+            font-size: 26px;
+            line-height: 35px;
+            color: rgb(50, 1,0);
+        }
+    
+        .fifthSection .fiftBtn{
+            margin-top: 15vh;
+            text-align: center;
+        }
+    
+        .fifthSection .fiftBtn a{
+            text-decoration: none;
+            background-color: gold;
+            border-radius: 23px;
+            padding: 12px 26px;
+            color: rgb(50, 1,0);
+            font-size: 20px;
+        }
+    
+        .fifthSection .familyDiv{
+            margin: 15vh 4vw 15vh 4vw;
+            display: flex;
+            background-color: white;
+            height: 55vh;
+            border-radius: 50px;
+        }
+        .familyDiv .familyText{
+            width: 35%;
+            padding: 5vh 8vw;
+        }
+        .familyDiv .familyText h5{
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+        .familyDiv .familyText h4{
+            font-size: 26px;
+            color: #272d27;
+            line-height: 35px;
+            font-weight: 700;
+        }
+        .familyDiv .familyText p{
+            font-size: 19px;
+            padding-top: 15px ;
+            line-height: 27px ;
+            color: #272d27;
+        }
+        .familyDiv .familyText a{
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 18px ;
+            line-height: 50px ;
+            color: rgb(50, 1,0);
+        }
+        .familyDiv .familyphoto{
+            width: 50%;
+        }
+        .familyDiv .familyphoto img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .fifthSection .familyDiv2{
+            margin: 10vh 4vw 10vh 4vw;
+            display: flex;
+            background-color: white;
+            height: 55vh;
+            border-radius: 50px;
+        }
+        .familyDiv2 .familyText{
+            width: 35%;
+            padding: 5vh 2vw;
+        }
+        .familyDiv2 .familyText h5{
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+        .familyDiv2 .familyText h4{
+            font-size: 26px;
+            color: #272d27;
+            line-height: 35px;
+            font-weight: 700;
+        }
+        .familyDiv2 .familyText p{
+            font-size: 19px;
+            padding-top: 15px ;
+            line-height: 27px ;
+            color: #272d27;
+        }
+        .familyDiv2 .familyText a{
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 18px ;
+            line-height: 50px ;
+            color: rgb(50, 1,0);
+        }
+        .familyDiv2 .familyphoto{
+            width: 50%;
+        }
+        .familyDiv2 .familyphoto img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .sixthSection{
+            padding-bottom: 25vh;
+        }
+        .sixthSection .headingSection{
+            padding-top: 10vh;
+            text-align: center;
+        
+        }
+    
+        .sixthSection .headingSection h2{
+            font-size: 50px;
+            color: rgb(50, 1,0);
+            line-height: 50px;
+            font-weight: lighter;
+        }
+    
+        .sixthSection .headingSection h2 span{
+            font-weight: bold;
+        }
+        .sixthSection .imageScrolled{
+            display: flex;
+            text-align: center;
+            margin-top: 20vh;
+        }
+    
+        .sixthSection .imageScrolled .scrolledImg{
+            margin: 0 5vw 0 4vw;
+        }
+    
+        .sixthSection .imageScrolled .scrolledImg img{
+            width: 100%;
+        }
+        .sixthSection .scrolledText h4{
+            font-size: 26px;
+            line-height: 35px;
+            margin-top: 4vh;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            font-weight: 500;
+            color: rgb(50, 1,0);
+            margin-bottom: 3vh;
+        }
+        .sixthSection .scrolledText p{
+            font-size: 18px;
+            line-height: 26px;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            font-weight: normal;
+            color: rgb(50, 1,0);
+        }
+    
+    
+    
+    
+        .sixthSection .inputfield{
+            margin-top: 5vh;
+            position: relative;
+        }
+    
+    
+        .sixthSection .inputfield input{
+            width: 20vw;
+            height: 5vh;
+            padding: 1.25vh;
+            font-size: 16px;
+            color: rgb(50, 1,0);
+        }
+        .sixthSection .inputfield input::placeholder{
+            color: rgb(50, 1,0);
+        }
+        
+        .sixthSection .inputfield button{
+            padding: 2.50vh;
+            background-color: gold;
+            color: rgb(64, 8,9);
+            border: none;
+            border-radius: 0px !important;
+            position: absolute;
+            top: 0;
+            font-size: 16px;
+            right: 5vw;
+            font-weight: bold;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .seventhSection{
+            background-color: rgb(52, 1,0);
+            padding: 15vh 0;
+            display: flex;
+        }
+        .seventhSection .part1{
+            width: 20vw;
+            margin-left: 4vw;
+        }
+        .seventhSection .part1 h4{
+            font-size: 26px;
+            line-height: 35px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 4vh;
+        }
+        .seventhSection .part1 ul li{
+            list-style: none;
+            margin-bottom: 2vh;
+            line-height: 30px;
+        }
+        .seventhSection .part1 ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+            font-size: 20px;
+        }
+    
+        .seventhSection .part1 p{
+            color: white;
+            font-weight: 100;
+            line-height: 30px;
+            font-size: 18px;
+        }
+        footer{
+            background-color: rgb(64, 8,9);
+            padding: 3vh 4vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer p{
+            color: white;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .seventhSection .inputfield{
+            margin-top: 5vh;
+            position: relative;
+        }
+    
+    
+        .seventhSection .inputfield input{
+            width: 20vw;
+            height: 5vh;
+            padding: 1.25vh;
+            background-color: rgb(64, 8,9);
+            font-size: 16px;
+            border-color: white;
+            color: white;
+        }
+        .seventhSection .inputfield input::placeholder{
+            color: white;
+        }
+        
+        .seventhSection .inputfield button{
+            padding: 2.25vh;
+            background-color: gold;
+            color: rgb(64, 8,9);
+            border: none;
+            border-radius: 0px !important;
+            position: absolute;
+            top: 1px;
+            font-size: 16px;
+            right: -17px;
+        }
+    
+        footer .media-icon{
+            margin-right: 4vw;
+        }
+        footer .media-icon .fa{
+            margin-left: 1vw;
+            font-size: 35px;
+            color: gold;
+        }
+        
+

@@ -1,0 +1,718 @@
+@media screen and (max-width : 300px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,25vw);
+grid-template-rows: repeat(3,25vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+    padding: 0 0 0 30vw;
+}
+.gameInfo h1{
+    position: absolute;
+    left: 7vw;
+    top: 10vh;
+    text-align: center;
+    font-size: 23px;
+}
+.gameInfo #textPart{
+    margin-top: 3vh;
+    position: relative;
+    height: 15vh;
+}
+.info{
+    font-size: 25px;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    margin: 3vh 5vw;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+    position: absolute;
+    bottom: -6vh;
+    left: 0;
+}
+    
+}
+@media screen and (max-width: 400px) and (min-width: 301px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,20vw);
+grid-template-rows: repeat(3,20vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+    padding: 0 20vw;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    font-size: 26px;
+    left: 5vw;
+}
+.gameInfo #textPart{
+    margin-top: 5vh;
+    position: relative;
+}
+.info{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    margin: 3vh 5vw;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+    bottom: -20vh;
+}
+    
+}
+@media screen and (max-width: 500px) and (min-width: 401px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,18vw);
+grid-template-rows: repeat(3,18vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+    padding: 0 20vw;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    font-size: 26px;
+}
+.gameInfo #textPart{
+    margin-top: 5vh;
+    position: relative;
+    
+}
+.info{
+    font-size: 25px;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+    position: absolute;
+    left: 28vw;
+}
+    
+}
+
+@media screen and (max-width: 600px) and (min-width: 501px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,14.5vw);
+grid-template-rows: repeat(3,14.5vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+margin-left: 25vw;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    font-size: 26px;
+}
+.gameInfo #textPart{
+    margin-top: 5vh;
+}
+.info{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    margin: 0 0 0 12vw ;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+    position: absolute;
+}
+    
+}
+
+
+
+@media screen and (max-width: 700px) and (min-width: 601px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,13vw);
+grid-template-rows: repeat(3,13vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+display: flex;
+justify-content: center;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    font-size: 26px;
+}
+.gameInfo #textPart{
+    margin-top: 5vh;
+}
+.info{
+    font-size: 25px;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    left: 33vw;
+    
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    margin: 0 5vw;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+}
+    
+}
+
+
+@media screen and (max-width: 850px) and (min-width: 701px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300;400&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: black;
+    padding: 1vh 10vw 1vh;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1vw;
+    padding-top: 1.5vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .avatorImg img {
+    border-radius: 30px;
+    width: 30px;
+}
+.gameContainer{
+display: block;
+justify-content: center;
+margin-top: 15vh;
+}
+
+.container{
+display: grid;
+width: auto;
+justify-content: center;
+grid-template-columns: repeat(3,11.5vw);
+grid-template-rows: repeat(3,11.5vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 12vw;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    
+    
+}
+.box:hover{
+    background-color: rgb(240, 224, 255);
+}
+.gameInfo{
+display: flex;
+justify-content: center;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    font-size: 26px;
+}
+.gameInfo #textPart{
+    margin-top: 5vh;
+}
+.info{
+    font-size: 25px;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    margin: 0 5vw;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgba(255, 174, 0, 0.918);
+    font-size: 16px;
+}
+    
+}
